@@ -1,4 +1,44 @@
+* {
+    margin: 0;
+    background-color: black;
+}
+
 header {
     display: flex;
     justify-content: center;
+    height: 5vh;
+    color: ghostwhite;
 }
+
+.clearBtn {
+    color: lime;
+}
+
+.gameBox {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: solid 1px black;
+    height: 560px;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    box-sizing: border-box;
+    height: 35px;
+    width: 35px;
+    border: solid 1px lime;
+}
+
+.newColor {
+    background-color: lime;
+    border: solid 1px black;
+}
+
