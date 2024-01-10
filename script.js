@@ -49,3 +49,4 @@ function labelSlider() {
 }
 
 createBoard(16);
+labelSlider();
