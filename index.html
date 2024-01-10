@@ -11,7 +11,14 @@
     <header>Etch-a-Sketch</header>
     <div class="gameBox">
         <div class="controlBox">
-            <button id="clearBtn" class="clearBtn">Clear</button>
+            <div class="sliderBox">
+                <input id="slider" type="range" min="4" max="100">
+                <p id="sliderLabel"></p>
+            </div>
+            <div class="btnBox">
+                <button id="createBtn" class="btn">Create</button>
+                <button id="clearBtn" class="btn">Clear</button>
+            </div>
         </div>
         <div id="gameContainer" class="container">
 
